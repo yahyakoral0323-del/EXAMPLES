@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Crown Palace - Executive Luxury Stay in G-12 Islamabad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: { 
+                            300: '#F3E5AB',
+                            400: '#E5C158', 
+                            500: '#D4AF37', 
+                            600: '#AA820A',
+                            700: '#866405'
+                        },
+                        darkBg: '#0B0D0E',
+                        cardBg: '#13171B',
+                        cardBorder: '#222930'
+                    },
+                    boxShadow: {
+                        'gold-glow': '0 0 25px -5px rgba(212, 175, 55, 0.2)',
+                        'gold-border': '0 0 0 1px rgba(212, 175, 55, 0.4)'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0B0D0E; }
+        .font-serif-luxury { font-family: 'Cinzel', serif; }
+        .gold-gradient { background: linear-gradient(135deg, #FFE89C 0%, #D4AF37 50%, #997400 100%); }
+        .gold-gradient-text { background: linear-gradient(135deg, #FFF1C5 0%, #D4AF37 50%, #997400 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .gold-border-gradient { border-image: linear-gradient(to right, #D4AF37, rgba(212,175,55,0.1)) 1; }
+    </style>
+</head>
+<body class="bg-darkBg text-gray-200 antialiased selection:bg-gold-500 selection:text-black">
+
+    <!-- Navigation -->
+    <nav class="bg-darkBg/80 backdrop-blur-xl sticky top-0 z-50 border-b border-gold-500/20 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <div class="w-11 h-11 rounded-full border border-gold-500/60 bg-darkBg flex items-center justify-center font-serif-luxury text-gold-400 font-bold text-xl shadow-gold-glow">HCP</div>
+                <div>
+                    <h1 class="font-serif-luxury text-base md:text-lg tracking-[0.2em] text-white font-semibold">HOTEL CROWN PALACE</h1>
+                    <p class="text-[9px] text-gold-400 tracking-[0.3em] uppercase font-medium">G-12 • Islamabad</p>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-10 text-xs font-medium tracking-[0.15em] uppercase text-gray-300">
+                <a href="#about" class="hover:text-gold-400 transition-colors duration-200">About</a>
+                <a href="#rooms" class="hover:text-gold-400 transition-colors duration-200">Accommodations</a>
+                <a href="#dining" class="hover:text-gold-400 transition-colors duration-200">Dining</a>
+                <a href="#amenities" class="hover:text-gold-400 transition-colors duration-200">Amenities</a>
+                <a href="#contact" class="hover:text-gold-400 transition-colors duration-200">Contact</a>
+            </div>
+            <a href="https://wa.me/923005261359" target="_blank" class="gold-gradient text-slate-950 font-bold px-6 py-2.5 rounded-full text-xs tracking-wider uppercase shadow-gold-glow hover:scale-105 transition-all duration-300 flex items-center gap-2">
+                <i class="fab fa-whatsapp text-base"></i> Book Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative h-[85vh] flex items-center justify-center text-center px-4 overflow-hidden border-b border-gold-500/10">
+        <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-darkBg/50 to-darkBg/80 z-10"></div>
+        <img src="l.png" alt="Hotel Crown Palace Lobby" class="absolute inset-0 w-full h-full object-cover brightness-75 scale-105 animate-pulse duration-[10000ms]">
+        
+        <div class="relative z-20 max-w-4xl mx-auto space-y-7">
+            <span class="inline-block border border-gold-500/40 bg-darkBg/80 text-gold-300 text-[11px] tracking-[0.25em] uppercase px-5 py-2 rounded-full backdrop-blur-md shadow-lg">
+                ★ 4.5 Rated Executive Experience
+            </span>
+            <h2 class="font-serif-luxury text-4xl md:text-7xl text-white font-bold leading-tight tracking-wide">
+                Work. Rest. Repeat.
+            </h2>
+            <p class="text-gray-300 text-sm md:text-base font-light max-w-2xl mx-auto leading-relaxed tracking-wide">
+                A dependable luxury business stay near G-11 Metro Bus Stop, Islamabad. Designed for complete comfort and ultimate productivity.
+            </p>
+            <div class="pt-4 flex flex-wrap justify-center gap-4">
+                <a href="#booking" class="gold-gradient text-slate-950 font-bold px-9 py-4 rounded-full text-xs tracking-[0.15em] uppercase shadow-gold-glow hover:brightness-110 hover:scale-105 transition-all duration-300">
+                    Reserve Your Stay
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Showcase -->
+    <section id="rooms" class="max-w-7xl mx-auto py-24 px-6">
+        <div class="text-center max-w-2xl mx-auto mb-20 space-y-3">
+            <span class="text-gold-400 text-xs font-semibold tracking-[0.3em] uppercase">Bespoke Living</span>
+            <h2 class="font-serif-luxury text-3xl md:text-5xl gold-gradient-text font-bold">Refined Accommodations</h2>
+            <div class="w-16 h-[2px] bg-gold-500 mx-auto mt-4"></div>
+            <p class="text-gray-400 text-xs md:text-sm font-light pt-2">Featuring plush velvet padded headboards, air-conditioned comfort, and pristine linens.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Room 1 -->
+            <div class="bg-cardBg rounded-2xl overflow-hidden border border-cardBorder hover:border-gold-500/40 hover:shadow-gold-glow transition-all duration-500 group flex flex-col justify-between">
+                <div>
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="room-purple.png" alt="Purple Velvet Suite" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-cardBg via-transparent to-transparent opacity-80"></div>
+                    </div>
+                    <div class="p-7 space-y-3">
+                        <h3 class="font-serif-luxury text-xl font-bold text-white tracking-wide">Purple Velvet Master Suite</h3>
+                        <p class="text-gray-400 text-xs font-light leading-relaxed">Flawless geometric gold-accented purple headboard with refined side tables and premium bedding.</p>
+                    </div>
+                </div>
+                <div class="px-7 pb-7 pt-4 flex justify-between items-center border-t border-cardBorder/60 mt-4">
+                    <span class="text-[10px] uppercase tracking-widest text-gray-400">Starts from <strong class="text-gold-400 text-base block font-sans tracking-normal font-semibold">PKR 5,000/night</strong></span>
+                    <a href="#booking" class="text-xs font-bold text-gold-400 tracking-wider uppercase hover:text-gold-300 flex items-center gap-1 transition-colors">Book <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                </div>
+            </div>
+
+            <!-- Room 2 -->
+            <div class="bg-cardBg rounded-2xl overflow-hidden border border-cardBorder hover:border-gold-500/40 hover:shadow-gold-glow transition-all duration-500 group flex flex-col justify-between">
+                <div>
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="rb.png" alt="Royal Blue Suite" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-cardBg via-transparent to-transparent opacity-80"></div>
+                    </div>
+                    <div class="p-7 space-y-3">
+                        <h3 class="font-serif-luxury text-xl font-bold text-white tracking-wide">Royal Blue & Gold Suite</h3>
+                        <p class="text-gray-400 text-xs font-light leading-relaxed">Impeccably styled royal blue velvet with gold motifs and matching vanity mirrors.</p>
+                    </div>
+                </div>
+                <div class="px-7 pb-7 pt-4 flex justify-between items-center border-t border-cardBorder/60 mt-4">
+                    <span class="text-[10px] uppercase tracking-widest text-gray-400">Starts from <strong class="text-gold-400 text-base block font-sans tracking-normal font-semibold">PKR 5,397/night</strong></span>
+                    <a href="#booking" class="text-xs font-bold text-gold-400 tracking-wider uppercase hover:text-gold-300 flex items-center gap-1 transition-colors">Book <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                </div>
+            </div>
+
+            <!-- Room 3 -->
+            <div class="bg-cardBg rounded-2xl overflow-hidden border border-cardBorder hover:border-gold-500/40 hover:shadow-gold-glow transition-all duration-500 group flex flex-col justify-between">
+                <div>
+                    <div class="h-72 overflow-hidden relative">
+                        <img src="Screenshot 2026-08-22 12.41.48 PM.png" alt="Mustard Gold Deluxe" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-cardBg via-transparent to-transparent opacity-80"></div>
+                    </div>
+                    <div class="p-7 space-y-3">
+                        <h3 class="font-serif-luxury text-xl font-bold text-white tracking-wide">Mustard Gold Deluxe</h3>
+                        <p class="text-gray-400 text-xs font-light leading-relaxed">Spacious tufted headboard, tiled floors, split AC cooling, and extra bedding options.</p>
+                    </div>
+                </div>
+                <div class="px-7 pb-7 pt-4 flex justify-between items-center border-t border-cardBorder/60 mt-4">
+                    <span class="text-[10px] uppercase tracking-widest text-gray-400">Starts from <strong class="text-gold-400 text-base block font-sans tracking-normal font-semibold">PKR 5,000/night</strong></span>
+                    <a href="#booking" class="text-xs font-bold text-gold-400 tracking-wider uppercase hover:text-gold-300 flex items-center gap-1 transition-colors">Book <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dining Section -->
+    <section id="dining" class="bg-cardBg/60 py-24 px-6 border-y border-gold-500/10 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="space-y-6">
+                <span class="text-gold-400 text-xs font-semibold tracking-[0.3em] uppercase">Culinary Excellence</span>
+                <h2 class="font-serif-luxury text-3xl md:text-5xl text-white font-bold leading-tight">Authentic Desi Breakfasts</h2>
+                <p class="text-gray-300 leading-relaxed font-light text-sm md:text-base">
+                    Start your morning with fresh layered parathas, hot omelettes, crisp French toast, and authentic Pakistani chai brewed to perfection.
+                </p>
+                <div class="pt-2 flex items-center gap-6 text-xs text-gold-300 uppercase tracking-widest font-medium">
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-utensils"></i> Fresh Ingredients</span>
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-mug-hot"></i> Freshly Brewed</span>
+                </div>
+            </div>
+            <div class="rounded-2xl overflow-hidden border border-gold-500/20 shadow-gold-glow group">
+                <img src="Screenshot 2026-08-22 12.43.21 PM.png" alt="Desi Breakfast Platter" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="max-w-4xl mx-auto py-24 px-6">
+        <div class="bg-cardBg p-8 md:p-14 rounded-3xl border border-gold-500/30 shadow-gold-glow relative overflow-hidden">
+            <img src="bb.jpg" alt="Business Stay Banner" class="absolute inset-0 w-full h-full object-cover opacity-5">
+            
+            <div class="relative z-10 text-center mb-10 space-y-2">
+                <span class="text-gold-400 text-xs font-semibold tracking-[0.25em] uppercase">Direct Reservation</span>
+                <h3 class="font-serif-luxury text-2xl md:text-4xl text-white font-bold">Reserve Room via WhatsApp</h3>
+            </div>
+            <form onsubmit="sendWhatsAppBooking(event)" class="space-y-5 relative z-10">
+                <div>
+                    <label class="block text-[11px] uppercase tracking-widest text-gray-400 mb-2">Full Name</label>
+                    <input type="text" id="guestName" required placeholder="Enter your name" class="w-full bg-darkBg/90 border border-cardBorder rounded-xl p-4 text-white text-sm focus:border-gold-500 focus:outline-none transition-colors">
+                </div>
+                <div class="grid md:grid-cols-2 gap-5">
+                    <div>
+                        <label class="block text-[11px] uppercase tracking-widest text-gray-400 mb-2">Check-In Date</label>
+                        <input type="date" id="checkIn" required class="w-full bg-darkBg/90 border border-cardBorder rounded-xl p-4 text-white text-sm focus:border-gold-500 focus:outline-none transition-colors">
+                    </div>
+                    <div>
+                        <label class="block text-[11px] uppercase tracking-widest text-gray-400 mb-2">Check-Out Date</label>
+                        <input type="date" id="checkOut" required class="w-full bg-darkBg/90 border border-cardBorder rounded-xl p-4 text-white text-sm focus:border-gold-500 focus:outline-none transition-colors">
+                    </div>
+                </div>
+                <button type="submit" class="w-full gold-gradient text-slate-950 font-bold py-4 rounded-xl text-xs tracking-[0.2em] uppercase shadow-gold-glow hover:brightness-110 hover:scale-[1.01] transition-all duration-300 mt-2">
+                    Confirm Reservation on WhatsApp
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        function sendWhatsAppBooking(e) {
+            e.preventDefault();
+            const name = document.getElementById('guestName').value;
+            const checkIn = document.getElementById('checkIn').value;
+            const checkOut = document.getElementById('checkOut').value;
+            const message = `*Hotel Crown Palace Reservation Request*%0A%0A*Guest Name:* ${name}%0A*Check-In:* ${checkIn}%0A*Check-Out:* ${checkOut}`;
+            window.open(`https://wa.me/923005261359?text=${message}`, '_blank');
+        }
+    </script>
+</body>
+</html>
